@@ -1,0 +1,23 @@
+Checks: >
+  -*,
+  bugprone-*,
+  clang-analyzer-*,
+  concurrency-*,
+  -concurrency-mt-unsafe,
+  cppcoreguidelines-*,
+  -cppcoreguidelines-avoid-magic-numbers,
+  misc-*,
+  -misc-no-recursion,
+  modernize-*,
+  -modernize-use-trailing-return-type,
+  performance-*,
+  portability-*,
+  readability-*,
+  -readability-identifier-length,
+  -readability-magic-numbers
+
+# WarningsAsErrors: "*"
+
+FormatStyle: file
+
+HeaderFilterRegex: "."

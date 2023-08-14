@@ -1,3 +1,7 @@
+/build/
+/vcpkg/
+/*.log
+
 # Prerequisites
 *.d
 
